@@ -8,7 +8,7 @@ const FormSubmit = (submitForm) => {
 
 
   return <div className="form-content-right">
-      <form className="form" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form" noValidate>
           <h1>Get Started! Submit by filling the information below.</h1>
           <div className="form-inputs">
               <label htmlFor="username" className="form-label">Username</label>
